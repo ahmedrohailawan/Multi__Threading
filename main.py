@@ -53,9 +53,9 @@ def merge_sort(arr, l, r):
 if __name__ == "__main__":
     # array of integers
     arr = [2,7,8,4,6,2,1,3,4,5,6]
-
+    print("\nArray before sorting\n",arr)
     # passing array to merge function
     merge_sort(arr, 0, len(arr) - 1)
 
     # printing array
-    print(arr)
+    print("\nArray after sorting\n",arr,"\n")
